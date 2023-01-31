@@ -34,10 +34,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
+# facebook: myfacebook
+# twitter: mytwitter
+# instagram: myinstagram
+# linkedin: mylinkedin
 github: https://github.com/Dom88dev/
 email: dom88.dev@gmail.com
 
@@ -47,7 +47,7 @@ authors:
     bio: "복세편살 행쇼 개발자"
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: dom
+    email: dom88.dev@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
