@@ -26,6 +26,6 @@ layout: page
 
 <ul>
 	<li><a href="https://dom88dev.github.io//legacies/">2022년 이전 프로젝트들</a></li>
-	<li><a href="https://dom88dev.github.io//moops/">Moops</a></li>
+	<li><a href="https://github.com/">Moops</a></li>
 	<li><a href="https://github.com/">DID</a></li>
 </ul>
