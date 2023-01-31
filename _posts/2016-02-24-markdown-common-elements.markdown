@@ -8,6 +8,7 @@ tag:
 - markdown
 - elements
 category: blog
+hidden: true
 author: dom
 description: Markdown summary with different options
 ---
