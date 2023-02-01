@@ -10,7 +10,7 @@ tag:
 category: blog
 author: dom
 description: "안드로이드에서 내부및 외부 저장소 총 용량 및 현재 여유용량 체크 코드 스니펫"
-last_modified_at: "2023-02-01 09:43:30 +0900"
+last_modified_at: "2023-02-01 09:43:45 +0900"
 ---
 
 ## 내부 저장소 총 용량 사이즈 체크 코드
@@ -19,7 +19,7 @@ last_modified_at: "2023-02-01 09:43:30 +0900"
 {% highlight kotlin %}
 fun getTotalInternalMemorySize() : Float {
     return StatFs(Environment.getDataDirectory().path).let {
-        formatSizeFloatMb(it.blockSizeLong * it.blockCountLong)
+        it.blockSizeLong * it.blockCountLong
     }
 }
 {% endhighlight %}
@@ -29,7 +29,7 @@ fun getTotalInternalMemorySize() : Float {
 {% highlight kotlin %}
 fun getFreeInternalMemorySize() : Float {
     return StatFs(Environment.getDataDirectory().path).let {
-        formatSizeFloatMb(it.blockSizeLong * it.availableBlocksLong)
+        it.blockSizeLong * it.availableBlocksLong
     }
 }
 {% endhighlight %}
@@ -51,7 +51,7 @@ fun isExternalMemoryAvailable() : Boolean {
 fun getTotalExternalMemorySize() : Float {
     return if (isExternalMemoryAvailable()) {
         StatFs(Environment.getExternalStorageDirectory().path).let {
-            formatSizeFloatMb(it.blockSizeLong * it.blockCountLong)
+            it.blockSizeLong * it.blockCountLong
         }
     } else 0f
 }
@@ -63,7 +63,7 @@ fun getTotalExternalMemorySize() : Float {
 fun getFreeExternalMemorySize() : Float {
     return if (isExternalMemoryAvailable())
         StatFs(Environment.getExternalStorageDirectory().path).let {
-            formatSizeFloatMb(it.blockSizeLong * it.availableBlocksLong)
+            it.blockSizeLong * it.availableBlocksLong
         }
     else 0f
 }
