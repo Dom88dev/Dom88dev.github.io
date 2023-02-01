@@ -2,7 +2,7 @@
 title: "안드로이드 저장소 여유 용량 체크"
 layout: post
 date: 2023-02-01 09:43 +0900
-image: /assets/images/markdown.jpg
+image: /assets/images/android_icon.png
 headerImage: true
 tag:
 - android
