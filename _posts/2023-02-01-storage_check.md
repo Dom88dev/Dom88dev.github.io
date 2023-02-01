@@ -35,7 +35,7 @@ fun getFreeInternalMemorySize() : Float {
 
 ---
 
-## 외부 저장소 용량 체크 코드
+## 외부 저장소 용량 사이즈 체크 코드
 
 외부 저장소가 마운트되어있는지 체크
 {% highlight kotlin %}
