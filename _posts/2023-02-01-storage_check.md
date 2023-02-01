@@ -23,6 +23,7 @@ fun getTotalInternalMemorySize() : Float {
 }
 {% endhighlight %}
 
+
 내부 저장소 여유 용량 사이즈 가져오기
 {% highlight kotlin %}
 fun getFreeInternalMemorySize() : Float {
@@ -43,6 +44,7 @@ fun isExternalMemoryAvailable() : Boolean {
 }
 {% endhighlight %}
 
+
 외부 저장소 총용량 사이즈 가져오기
 {% highlight kotlin %}
 fun getTotalExternalMemorySize() : Float {
@@ -55,6 +57,7 @@ fun getTotalExternalMemorySize() : Float {
 {% endhighlight %}
 
 
+외부 저장소 여유용량 사이즈 가져오기
 {% highlight kotlin %}
 fun getFreeExternalMemorySize() : Float {
     return if (isExternalMemoryAvailable())
