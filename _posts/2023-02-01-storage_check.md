@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 저장소 여유 용량 체크"
+title: "안드로이드 저장소/메모리 사이즈 체크"
 layout: post
 date: 2023-02-01 09:43 +0900
 image: /assets/images/android_icon.png
@@ -70,7 +70,7 @@ fun getFreeExternalMemorySize() : Float {
 
 ---
 
-## 번외 - RAM 사이즈 가져오기
+## RAM 사이즈 가져오기
 {% highlight kotlin %}
 fun getRamSize(context: Context): Long {
     val memInfo = ActivityManager.MemoryInfo()
