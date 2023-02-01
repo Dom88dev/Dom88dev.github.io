@@ -64,3 +64,6 @@ fun getFreeExternalMemorySize() : Float {
     else 0f
 }
 {% endhighlight %}
+
+---
+> 상기 코드는 바이트사이즈를 가져오는 것 KB는 1024를, MB는 (1024*1024)를, GB는 (1024*1024*1024)를 나눠줘야 한다.
