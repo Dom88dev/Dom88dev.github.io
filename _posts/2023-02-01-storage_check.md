@@ -1,7 +1,7 @@
 ---
 title: "안드로이드 저장소/메모리 사이즈 체크"
 layout: post
-date: 2023-02-01 09:43 +0900
+date: 2023-02-01 09:43:00 +0900
 image: /assets/images/android_icon.png
 headerImage: true
 tag:
@@ -10,6 +10,7 @@ tag:
 category: blog
 author: dom
 description: "안드로이드에서 내부및 외부 저장소 총 용량 및 현재 여유용량 체크 코드 스니펫"
+last_modified_at: "2023-02-01 09:43:30 +0900"
 ---
 
 ## 내부 저장소 총 용량 사이즈 체크 코드
